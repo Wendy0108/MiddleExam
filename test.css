@@ -1,0 +1,312 @@
+header {
+  background-image: url(image/b3.jpg);
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  color:white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url(image/b4.jpg);
+}
+
+
+
+.about-text h5 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 25px;
+}
+
+nav ul li:hover {
+  background-color: #fff;
+}
+
+nav ul li:hover a {
+  background-color: #8e8e8e;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-text h2 {
+  border-bottom: 0.00001px solid #333;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.about-text {
+  margin-right: 40px;
+  font-size: 25px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.about-text:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.about-text:hover:after {
+  opacity: 1;
+}
+
+.about-text p {
+  margin-left: 20px;
+}
+
+.about-image img {
+  max-width: 50%;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+
+h2 {
+  font-size: 34px;
+  margin-top: 40px;
+}
+
+.nav-links a img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+
+
+ul {
+	margin: 20px;
+	padding: 20px;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 40px;
+}
+.experience-section {
+background-image:url(image/ba291c2228b6b5257983d897985b6ab2_t.jpg) ;
+  padding: 50px;
+}
+
+
+
+
+
+
+.experience-heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 50px 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-image:url(image/b2.jpg) ;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.timeline-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.timeline-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color:#ccc;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  align-items: flex-end;
+  margin-right: 300px;
+  margin-left: 50px;
+}
+.timeline-item:nth-child(1) .timeline-content {
+  margin-left: -1000px;
+}
+.timeline-item:nth-child(3) .timeline-content {
+  margin-left: -1000px;
+}
+
+.timeline-icon {
+  display: none;
+}
+
+.timeline-content h2 {
+  margin-left: -180px;
+}
+
+.timeline-content p {
+  margin-left: -150px;
+}
+
+.timeline-image {
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.timeline-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+
+.timeline-image {
+  transform: scale(1);
+  transition: transform 0.3s; 
+}
+
+
+.timeline-image:hover {
+  transform: scale(1.2);
+}
+.title {
+  color: #450920;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.pho1 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  top: 100px;
+  left: 750px;
+  border-radius: 30%;
+}
+
+.pho2 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  top: -100px;
+  left: 310px;
+  border-radius: 30%;
+}
+
+.pho3 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  top: -50px;
+  left: 650px;
+  border-radius: 30%;
+}
+
+.pho4 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  top: -250px;
+  left: 200px;
+  border-radius: 30%;
+}
+.title-image {
+  transform: scale(1);
+  transition: transform 0.3s; 
+  font-size: 40px;
+  align-items: center;
+}
+.title-image:hover {
+  transform: scale(6);
+}
+
+footer {
+  background-image:url(image/b3.jpg);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
